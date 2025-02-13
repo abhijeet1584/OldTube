@@ -1,7 +1,7 @@
 {
-    "name": "YouTube Redux",
-    "version": "3.7.0",
-    "description": "Replicate old YouTube look and features within the modern layout!",
+    "name": "YouTube Redux-Revamp",
+    "version": "1.0.0",
+    "description": "YouTube Redux Extension but a few improvements",
     "permissions": ["activeTab", "storage"],
     "browser_action": {
       "default_popup": "popup.html",

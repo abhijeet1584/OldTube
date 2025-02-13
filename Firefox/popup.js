@@ -13,9 +13,9 @@ let donateButton = document.querySelector('#donate');
 let globalURL;
 let currentSettings;
 
-donateButton.onclick = function() {
-	window.open("https://www.paypal.com/donate?hosted_button_id=MD9WRXSTLB49W");
-};
+// donateButton.onclick = function() {
+// 	window.open("https://www.paypal.com/donate?hosted_button_id=MD9WRXSTLB49W");
+// };
 
 browser.tabs.query({active: true, lastFocusedWindow: true}, tabs => {
 	globalURL = tabs[0].url;
